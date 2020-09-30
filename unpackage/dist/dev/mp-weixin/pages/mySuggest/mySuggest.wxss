@@ -1,0 +1,25 @@
+.content {
+  padding-bottom: 300rpx;
+}
+.ui-display {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.ui-display image {
+  width: 25%;
+  padding: 0 8rpx;
+  height: 155rpx;
+}
+.uni-tag {
+  float: right;
+  width: 16%;
+  text-align: right;
+}
+.ui-span {
+  margin-left: 20rpx;
+}
+.ui-item {
+  padding: 20rpx 0;
+}
+

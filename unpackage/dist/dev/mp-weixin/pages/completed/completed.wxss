@@ -1,0 +1,102 @@
+.ui-noData {
+  margin-top: 50rpx;
+  margin-left: 20rpx;
+  font-size: 26px;
+  color: #333;
+}
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.content .ui-swiperContent {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: scroll;
+}
+.content .ui-swiperContent .uni-padding-wrap,
+.content .ui-swiperContent .page-section,
+.content .ui-swiperContent .page-section-spacing,
+.content .ui-swiperContent .swiper {
+  height: 100%;
+  overflow: scroll;
+}
+.content .ui-swiperContent .uni-padding-wrap .ui-display,
+.content .ui-swiperContent .page-section .ui-display,
+.content .ui-swiperContent .page-section-spacing .ui-display,
+.content .ui-swiperContent .swiper .ui-display {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.content .ui-swiperContent .uni-padding-wrap .ui-display image,
+.content .ui-swiperContent .page-section .ui-display image,
+.content .ui-swiperContent .page-section-spacing .ui-display image,
+.content .ui-swiperContent .swiper .ui-display image {
+  width: 25%;
+  padding: 0 8rpx;
+  height: 155rpx;
+}
+.content .ui-swiperContent .uni-padding-wrap .uni-tag,
+.content .ui-swiperContent .page-section .uni-tag,
+.content .ui-swiperContent .page-section-spacing .uni-tag,
+.content .ui-swiperContent .swiper .uni-tag {
+  height: 50rpx;
+  width: 90%;
+  text-align: center;
+}
+.content .ui-swiperContent .uni-padding-wrap .ui-span,
+.content .ui-swiperContent .page-section .ui-span,
+.content .ui-swiperContent .page-section-spacing .ui-span,
+.content .ui-swiperContent .swiper .ui-span {
+  margin-left: 20rpx;
+}
+.content .ui-swiperContent .uni-padding-wrap .ui-item,
+.content .ui-swiperContent .page-section .ui-item,
+.content .ui-swiperContent .page-section-spacing .ui-item,
+.content .ui-swiperContent .swiper .ui-item {
+  padding: 10rpx 0;
+}
+.swiper-item {
+  overflow-y: scroll;
+}
+.ui-lineBtn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.ui-mItem {
+  background: #fff;
+  padding-bottom: 40rpx;
+}
+.main-Gallery {
+  height: 400rpx;
+}
+.hello {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.title {
+  color: #8f8f94;
+  margin-top: 25px;
+}
+.ul {
+  font-size: 15px;
+  color: #8f8f94;
+  margin-top: 25px;
+}
+.ul > view {
+  line-height: 25px;
+}
+

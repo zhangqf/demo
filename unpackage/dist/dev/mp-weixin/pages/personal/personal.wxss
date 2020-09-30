@@ -1,0 +1,68 @@
+
+.ui-avatar{
+		width:180rpx;
+		height: 180rpx;
+		margin: 0 auto;
+		display: block;
+		border-radius: 50%;
+}
+
+.ui-blue.data-v-3df0de86 {
+  color: #007AFF;
+}
+.btn-row.data-v-3df0de86 {
+  margin-top: 40px;
+}
+.icon-yousanjiao.iconRight.data-v-3df0de86 {
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+}
+.ui-listContentLi.data-v-3df0de86 {
+  position: relative;
+  width: 96%;
+  height: 100rpx;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #7d7d7d;
+  line-height: 28px;
+  border-bottom: 2rpx solid #e7e7e7;
+}
+.ui-listContentLi ._span.data-v-3df0de86 {
+  width: 150rpx;
+  text-align: right;
+  margin-right: 40rpx;
+  margin-left: 20rpx;
+}
+.ui-listContentLi.data-v-3df0de86:last-child {
+  border-bottom: none;
+}
+.ui-listcontent.data-v-3df0de86 {
+  width: 100%;
+}
+._i.data-v-3df0de86 {
+  font-size: 26px;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.ui-red.data-v-3df0de86 {
+  color: #ff512f;
+}
+.ui-header.data-v-3df0de86 {
+  background-color: #fff;
+  padding: 60rpx 0 40rpx 0;
+}
+.ui-text.data-v-3df0de86 {
+  margin-top: 40rpx;
+  text-align: center;
+}
+.ui-userList.data-v-3df0de86 {
+  margin: 32rpx 0;
+  background-color: #fff;
+}
+

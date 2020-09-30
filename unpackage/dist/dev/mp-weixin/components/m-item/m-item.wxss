@@ -1,0 +1,22 @@
+
+.ui-href.data-v-6876a8e4{
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: flex;
+		    -webkit-box-orient: vertical;
+		    -webkit-box-direction: normal;
+		    -webkit-flex-direction: column;
+		            flex-direction: column;
+}
+.ui-gridItems.data-v-6876a8e4{
+		margin-top: 40rpx;
+}
+.ui-image.data-v-6876a8e4{
+	width: 80rpx;
+	height: 80rpx;
+	margin: 0 auto;
+}
+.ui-text.data-v-6876a8e4{
+	text-align: center;
+}
+

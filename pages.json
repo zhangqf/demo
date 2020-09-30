@@ -1,0 +1,152 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "评价"
+				// "navigationStyle":"评价"
+			}
+		}, {
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "待接单"
+			}
+		}, {
+			"path": "pages/reportRepair/reportRepair",
+			"style": {
+				"navigationBarTitleText": "报修"
+			}
+		}, {
+			"path": "pages/parking/parking",
+			"style": {
+				"navigationBarTitleText": "停车"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "components/m-avatar/m-avatar",
+			"style": {}
+		}, {
+			"path": "pages/suggest/suggest",
+			"style": {
+				"navigationBarTitleText": "建议"
+			}
+		}, {
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		}, {
+			"path": "pages/changePassword/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/mySuggest/mySuggest",
+			"style": {
+				"navigationBarTitleText": "我的建议"
+			}
+		},
+		{
+			"path": "pages/myRepair/myRepair",
+			"style": {
+				"navigationBarTitleText": "我的报修"
+			}
+		},
+		{
+			"path": "pages/personalInformation/personalInformation",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		}
+	    ,{
+            "path" : "components/webview/webview",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/reportRepairDetail/reportRepairDetail",
+            "style" : {
+							"navigationBarTitleText": "报修详情"
+						}
+        }
+        ,{
+            "path" : "pages/orderReceived/orderReceived",
+            "style" : {
+							"navigationBarTitleText":"已接单"
+						}
+        }
+        ,{
+            "path" : "pages/completed/completed",
+            "style" : {
+							"navigationBarTitleText":"待评价工单"
+						}
+        }
+        ,{
+            "path" : "pages/orderReceivedDetail/orderReceivedDetail",
+            "style" : {
+								"navigationBarTitleText":"工单处理"
+						}
+        }
+        ,{
+            "path" : "pages/personal/personal",
+            "style" : {
+							"navigationBarTitleText":"我的"
+						}
+        }
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/main/main",
+			"text": "工单大厅",
+			"iconPath": "static/img/dts.png",
+			"selectedIconPath": "static/img/dt.png"
+		},
+		{
+			"pagePath": "pages/orderReceived/orderReceived",
+			"text": "已接单",
+			"iconPath": "static/img/jds.png",
+			"selectedIconPath": "static/img/yjd.png"
+		},
+		{
+			"pagePath": "pages/completed/completed",
+			"text": "待评价",
+			"iconPath": "static/img/fks.png",
+			"selectedIconPath": "static/img/fk.png"
+		},{
+			"pagePath": "pages/user/user",
+			"text": "评价",
+			"iconPath": "static/img/mys.png",
+			"selectedIconPath": "static/img/my.png"
+		},
+		{
+			"pagePath": "pages/personal/personal",
+			"text": "我的",
+			"iconPath": "static/img/mys.png",
+			"selectedIconPath": "static/img/my.png"
+		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#143270",
+		"backgroundColor": "#fbf9fe"
+	}
+}

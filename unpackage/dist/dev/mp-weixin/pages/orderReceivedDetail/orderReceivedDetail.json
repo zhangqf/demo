@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "工单处理",
+  "usingComponents": {
+    "xfl-select": "/components/xfl-select/xfl-select"
+  }
+}

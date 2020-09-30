@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/user/user",
+    "pages/main/main",
+    "pages/reportRepair/reportRepair",
+    "pages/parking/parking",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "components/m-avatar/m-avatar",
+    "pages/suggest/suggest",
+    "pages/notice/notice",
+    "pages/changePassword/changePassword",
+    "pages/mySuggest/mySuggest",
+    "pages/myRepair/myRepair",
+    "pages/personalInformation/personalInformation",
+    "components/webview/webview",
+    "pages/reportRepairDetail/reportRepairDetail",
+    "pages/orderReceived/orderReceived",
+    "pages/completed/completed",
+    "pages/orderReceivedDetail/orderReceivedDetail",
+    "pages/personal/personal"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#143270",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "工单大厅",
+        "iconPath": "static/img/dts.png",
+        "selectedIconPath": "static/img/dt.png"
+      },
+      {
+        "pagePath": "pages/orderReceived/orderReceived",
+        "text": "已接单",
+        "iconPath": "static/img/jds.png",
+        "selectedIconPath": "static/img/yjd.png"
+      },
+      {
+        "pagePath": "pages/completed/completed",
+        "text": "待评价",
+        "iconPath": "static/img/fks.png",
+        "selectedIconPath": "static/img/fk.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "评价",
+        "iconPath": "static/img/mys.png",
+        "selectedIconPath": "static/img/my.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "static/img/mys.png",
+        "selectedIconPath": "static/img/my.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap94.json"
+}

@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{list.data}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><uni-card vue-id="{{'6199cf00-1-'+index}}" title="{{item.advername}}" thumbnail bind:__l="__l" vue-slots="{{['default']}}"><view><rich-text nodes="{{item.content}}"></rich-text></view></uni-card></view></block></view>
